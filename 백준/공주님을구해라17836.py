@@ -32,7 +32,7 @@ ans1=bfs(0,0,n-1,m-1,0)
 tmp=bfs(0,0,sword[0],sword[1],0)
 
 if tmp!=float('inf'):
-  
+
     ans=tmp+abs(n-1-sword[0])+abs(m-1-sword[1])
 else:
     ans=tmp
